@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Example">
+      <UniqueIdentifier>{363ce6a7-18ed-44b1-8592-dfdb682ce1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Example">
+      <UniqueIdentifier>{dd58ac88-dc41-461c-9c16-c8ff9f00c935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Utility">
+      <UniqueIdentifier>{70915f7e-fbad-42a4-85b3-34c815d7b616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Utility">
+      <UniqueIdentifier>{5ad45f35-23d5-4d8b-9f08-cf0ce3ee609e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Exercise2">
+      <UniqueIdentifier>{5cd7207a-6d08-4aa5-9150-11de9c964fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Exercise2\Polígono">
+      <UniqueIdentifier>{24cd9b41-2ee8-420b-bac8-2403b2cb6e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Exercise2">
+      <UniqueIdentifier>{ce515774-c7f7-4bbc-81b7-2fef01aab512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Exercise2\Punto3D">
+      <UniqueIdentifier>{81517c81-b5a3-4ece-860e-12b9e4c6b4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Exercise2\Polígono">
+      <UniqueIdentifier>{3808ba75-a0be-405d-8359-497fdf171933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Exercise2\Punto3D">
+      <UniqueIdentifier>{e6cd31af-2482-4dc5-a4ff-47f9e1cac09b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Example.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Example1.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Polígono.cpp">
+      <Filter>Archivos de origen\Exercise2\Polígono</Filter>
+    </ClCompile>
+    <ClCompile Include="Punto3D.cpp">
+      <Filter>Archivos de origen\Exercise2\Punto3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Example2.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Archivos de origen\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Example.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Example1.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeGL.h">
+      <Filter>Archivos de encabezado\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Polígono.h">
+      <Filter>Archivos de encabezado\Exercise2\Polígono</Filter>
+    </ClInclude>
+    <ClInclude Include="Punto3D.h">
+      <Filter>Archivos de encabezado\Exercise2\Punto3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Example2.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Archivos de encabezado\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGL.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
