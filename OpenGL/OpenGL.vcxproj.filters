@@ -43,6 +43,12 @@
     <Filter Include="Archivos de origen\Exercise2\Punto3D">
       <UniqueIdentifier>{e6cd31af-2482-4dc5-a4ff-47f9e1cac09b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\Utility\Lights">
+      <UniqueIdentifier>{925f02d7-89f1-499d-89ed-930f0b0c67df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Utility\Lights">
+      <UniqueIdentifier>{8b5e04d2-c727-49ab-a821-201da59509e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenGL.cpp">
@@ -68,6 +74,18 @@
     </ClCompile>
     <ClCompile Include="Example4.cpp">
       <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Archivos de origen\Utility\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Archivos de origen\Utility\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Archivos de origen\Utility\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Archivos de origen\Utility\Lights</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +115,18 @@
     </ClInclude>
     <ClInclude Include="Example4.h">
       <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Archivos de encabezado\Utility\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Archivos de encabezado\Utility\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Archivos de encabezado\Utility\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Archivos de encabezado\Utility\Lights</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
