@@ -144,10 +144,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="DirectionalLight.cpp" />
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="Example1.cpp" />
     <ClCompile Include="Example2.cpp" />
+    <ClCompile Include="Example3.cpp" />
     <ClCompile Include="Example4.cpp" />
     <ClCompile Include="Light.cpp" />
     <ClCompile Include="OpenGL.cpp" />
@@ -158,9 +160,11 @@
     <ClCompile Include="Vector3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="DirectionalLight.h" />
     <ClInclude Include="Example.h" />
     <ClInclude Include="Example1.h" />
+    <ClInclude Include="Example3.h" />
     <ClInclude Include="Example4.h" />
     <ClInclude Include="IncludeGL.h" />
     <ClInclude Include="Example2.h" />

@@ -1,14 +1,2 @@
-﻿  DirectionalLight.cpp
-  Example.cpp
-  Example1.cpp
-  Example2.cpp
-  Example4.cpp
-  Light.cpp
-  OpenGL.cpp
-  PointLight.cpp
-  Polígono.cpp
-  Punto3D.cpp
-  SpotLight.cpp
-  Vector3.cpp
-  Generando código...
-  OpenGL.vcxproj -> C:\Users\Blade\Music\OpenGL\Debug\OpenGL.exe
+﻿  Camera.cpp
+  OpenGL.vcxproj -> C:\Users\teamo\Desktop\OpenGL-ComputerGrafics\Debug\OpenGL.exe

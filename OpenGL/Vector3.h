@@ -19,6 +19,11 @@ public:
     // Escalar un vector
     Vector3 operator*(float scalar) const;
 
+    // Sobrecarga del operador +=
+    Vector3& operator+=(const Vector3& other);
+
+    Vector3& operator-=(const Vector3& other);
+
     // Magnitud del vector
     float magnitude() const;
 
